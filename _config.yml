@@ -1,8 +1,8 @@
 title: Risnfd
 logo: "images/logo.svg" # You can add own logo image.
-description: Minimalistic Theme for Jekyll
+description: Pecandu program komputer
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "risnfd.xyz" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://risnfd.xyz" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author:
@@ -42,6 +42,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-feed
 
 paginate: 4
 paginate_path: "/page/:num"
