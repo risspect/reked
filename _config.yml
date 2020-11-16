@@ -20,7 +20,7 @@ email: risnfd@gmail.com # Add your Email address
 # Hero Section
 hero: true # To enable the section hero, use the value true. To turn off use the value false.
 hero-title: Risna Fadillah # Add your hero title
-hero-subtitle: Untuk pecandu program komputer # Add your hero subtitle
+hero-subtitle: Pecandu program komputer # Add your hero subtitle
 hero-image: images/14.jpg # Add background image in section hero
 
 # Footer
@@ -37,7 +37,7 @@ mailchimp: "" # Add your MailChimp form identifier. For example - blogenjoyfreed
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: micro
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
