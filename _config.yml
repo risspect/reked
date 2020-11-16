@@ -12,15 +12,15 @@ author:
 # Contact links
 twitter: https://twitter.com/risnfd # Add your Twitter handle
 facebook: https://facebook.com/risnfd # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
+#dribbble: https://dribbble.com/ # Add your Dribbble handle
 instagram: https://instagram.com/rrisnfd # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+#pinterest: https://pinterest.com/ # Add your Pinterest handle
 email: risnfd@gmail.com # Add your Email address
 
 # Hero Section
 hero: true # To enable the section hero, use the value true. To turn off use the value false.
-hero-title: Raked Minimalistic Theme # Add your hero title
-hero-subtitle: For those who love simplicity # Add your hero subtitle
+hero-title: Risna Fadillah # Add your hero title
+hero-subtitle: Untuk pecandu program komputer # Add your hero subtitle
 hero-image: images/14.jpg # Add background image in section hero
 
 # Footer
