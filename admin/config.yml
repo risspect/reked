@@ -7,7 +7,7 @@ media_folder: "/images"
 
 collections:
   - name: "post"
-    label: "Post"
+    label: "Posts"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -18,3 +18,13 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tag", name: "tags", widget: "list"}
+  - name: "page"
+    label: "Pages"
+    folder: "_pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
