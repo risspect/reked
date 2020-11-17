@@ -17,6 +17,23 @@ instagram: https://instagram.com/rrrisnfd # Add your Instagram handle
 #pinterest: https://pinterest.com/ # Add your Pinterest handle
 email: risnfd@gmail.com # Add your Email address
 
+# Seo Tag
+twitter:
+  username: risnfd
+  card: summary
+facebook:
+  app_id: 1234
+  publisher: risnfd
+  admins: voinatic
+social:
+  name: Risna Fadillah
+  links:
+    - https://twitter.com/risnfd
+    - https://www.facebook.com/risnfd
+    - https://www.linkedin.com/in/
+    - https://github.com/risspect
+    - https://keybase.io/
+
 # Hero Section
 hero: true # To enable the section hero, use the value true. To turn off use the value false.
 hero-title: Risna Fadillah # Add your hero title
@@ -43,6 +60,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-feed
+  - jekyll-seo-tag
 
 paginate: 4
 paginate_path: "/page/:num"

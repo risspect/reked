@@ -1,16 +1,25 @@
 ---
+href: About
 layout: page
 title: About
 permalink: /about/
-image: images/01.jpg
+image: images/me.jpg
 ---
 
-Hi, my name is Sasha Levi. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hallo, nama saya Risna Fadillah, saya sangat menyukai bahasa pemrograman. Awal saya menyukainya saat masih duduk di kelas satu Sekolah Menengah Pertama pada mata pelajaran TIK (Teknologi Informasi dan Komunikasi), saya menyukainya karena banyak sekali tantangan saat akan membuat suatu program. Saya sendiri sering membuat program jika sedang bosan, koding menjadi salah satu hobi saya yang kini sedang di tingkatkan lagi.
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan.
+Selain bahasa pemrograman, saya menyukai desain, desain juga termasuk hobi saya yang sedang saya kembangkan karena sangat dibutuhkan nanti. Saya mulai belajar desain saat saya melihat logo-logo yang dipampang pada jumbotron (iklan dijalan yang segede gaban). Desain pertama saya adalah logo untuk suatu komunitas kecil.
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
+beberapa koleksi desain saya dapat kalian lihat di akun instagram saya [disini](https://instagram.com/risnfdsign)
 
-#### Industry Design & Media
+#### Riwayat Pendidikan
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg.
+* **Sekolah Dasar**\
+*2009 - 2015*\
+Saya bersekolah dasar di **MA Mathla'unnajah** tepatnya didaerah Ujung Jaya, Sumedang, dan berpindah ke **SD Negeri Ciporeat** di Kecamatan Ujung Berung, Kota Bandung saat saya duduk di kelas dua
+* **Sekolah Menengah Pertama**\
+*2015 - 2018*\
+Saya bersekolah di **SMP Negeri 8 Bandung** tepatnya didaerah Kecamatan Ujung Berung, Kota Bandung. Saya mengambil ekstrakurikuler Basket dan Futsal.
+* **Sekolah Menengah Kejuruan**\
+*2018 - 2021*\
+Saya bersekolag di **SMK Negeri 6 Bandung** tepatnya didaerah Kecamatan Gedebage, Kota Bandung, saya mengambil jurusan TAV (Teknik Audio Video) dan saya mengambil ekstrakurikuler Basket dan Volly.
