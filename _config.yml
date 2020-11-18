@@ -43,7 +43,7 @@ disqus-identifier: risnfd # Add your shortname for Disqus Comment. For example m
 google-analytics: "" # Add your identifier. For example UA-99631805-1.
 
 # Newsletter
-mailchimp: "" # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: "https://xyz.us7.list-manage.com/subscribe/post?u=21292f46ad63046fa2138c735&amp;id=e641840575" # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Build settings
 markdown: kramdown
