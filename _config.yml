@@ -37,7 +37,7 @@ hero-image: images/14.jpg # Add background image in section hero
 footer-image: images/22.jpg # Add background image in footer
 
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: risnfd # Add your shortname for Disqus Comment. For example mr-brown
 
 # Google Analytics
 google-analytics: "" # Add your identifier. For example UA-99631805-1.
@@ -47,7 +47,7 @@ mailchimp: "" # Add your MailChimp form identifier. For example - blogenjoyfreed
 
 # Build settings
 markdown: kramdown
-permalink: micro
+permalink: /post/:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
