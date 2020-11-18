@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Penetration Testing dengan Nmap"
-date:   2020-11-18
-tags:   [Penetration Testing]
+title: Penetration Testing dengan Nmap
+date: 2020-11-18
+image: /images/20201118_222656.jpg
+tags:
+  - Penetration Testing
 ---
 Jika kalian ingin menjadi seorang peretas/hacker atau kalian memiliki mint terhadap bidang Keamanan Jaringan, pastinya kalian tidak asing atau pernah mendengar istilah dari "Penetration Testing" atau "Pengujian Penetrasi". Secara garis besar, Penetration Testing/Pengujian penetrasi adalah salah satu dari banyak spesialisasi di bidang peretasan.
 
