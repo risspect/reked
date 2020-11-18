@@ -23,3 +23,9 @@ Saya bersekolah di **SMP Negeri 8 Bandung** tepatnya didaerah Kecamatan Ujung Be
 * **Sekolah Menengah Kejuruan**\
 *2018 - 2021*\
 Saya bersekolag di **SMK Negeri 6 Bandung** tepatnya didaerah Kecamatan Gedebage, Kota Bandung, saya mengambil jurusan TAV (Teknik Audio Video) dan saya mengambil ekstrakurikuler Basket dan Volly.
+
+**Hubungi saya melalui:**
+- https://twitter.com/risnfd
+- https://www.facebook.com/risnfd
+- https://www.linkedin.com/in/risnfd
+- https://keybase.io/risnfd
