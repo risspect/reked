@@ -2,7 +2,7 @@
 layout: post
 title:  "Membuat Bot Telegram dengan Python"
 date:   2020-11-22
-image:  images/
+image:  images/telebot.jpg
 tags:   [Bot Telegram, Python]
 ---
 
