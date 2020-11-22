@@ -1,0 +1,119 @@
+I"+<p>Telegram bot adalah sebuah bot atau robot yang diprogram dengan berbagai perintah untuk menjalankan serangkaian instruksi yang diberikan oleh pengguna. Bot ini hanyalah sebuah akun Telegram yang dioperasikan oleh perangkat lunak yang memiliki fitur AI.</p>
+
+<p>Ada dua cara untuk membuat bot telegram, yaitu:</p>
+<ol>
+  <li>Membuat bot dengan memprogram Bot dari nol sampai jadi 100% (dengan coding)</li>
+  <li>Membuat bot dengan mengaitkan Bot dengan bot penyedia layanan lain (tanpa coding)</li>
+</ol>
+
+<p>Biasanya orang-orang yang menekuni profesinya sebagai bot developer akan memilih nomor 1, Kenapa? Karena membuat bot dengan coding akan lebih mudah untuk mengkustom botnya. Tidak seperti bot dengan coding, Bot yang menggunakan bot penyedia layanan seperti halnya ManyBot akan lebih sulit untuk di kustomisasi dan memiliki watermark.</p>
+
+<p>Sebelum saya melanjutkan tutorialnya, ada beberapa yang harus disiapkan, diantaranya:</p>
+<ul>
+  <li>Token Bot yang masih baru</li>
+  <li>API bot telegram (saya menggunakan pyTelegramBotApi) untuk mengenal API nya anda dapat mengunjungi halaman github eternnoir <a href="https://github.com/eternnoir/pyTelegramBotAPI">disini</a></li>
+</ul>
+
+<p>Berikut adalah tutorial lengkapnya:</p>
+
+<h3 id="pembuatan-bot">Pembuatan Bot</h3>
+
+<p>Hal yang pertama kali kita lakukan adalah mengambil Token Bot, berikut caranya:</p>
+
+<h4 id="membuat-token-bot-telegram">Membuat Token Bot Telegram</h4>
+
+<p>Simak cara berikut.</p>
+
+<ol>
+  <li>
+    <p>Masuk ke aplikasi telegram kalian masing-masing lalu inputkan BotFather di pencarian, berikut contohnya
+<img src="../images/1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Lalu klik Start dan botFather, dan tampilan akan seperti berikut:
+<img src="../images/2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Setelah botFather aktif, kalian dapat mengirim pesan perintah <code class="language-plaintext highlighter-rouge">/newbot</code> untuk membuat bot baru, tampilannya akan seperti berikut:
+<img src="../images/3.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Kirim nama Bot Kalian dan setelah itu Kirim Username Botnya, seperti berikut
+<img src="../images/4.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Jika berhasil Maka Token Bot akan Terlihat, seperti berikut
+<img src="../images/5.png" alt="" /></p>
+  </li>
+</ol>
+
+<p>Catat Token yang sudah di dapat agar tidak lupa, dan kalian bisa lanjut ke cara berikutnya</p>
+
+<h4 id="memasang-api-bot">Memasang API Bot</h4>
+
+<p>Pada bagian ini, kalian harus memiliki Terminal (Command Line Interface).</p>
+
+<p>Berikut cara pemasangannya.</p>
+
+<ol>
+  <li>Install python versi terbaru yaitu Python 3.9, jika kalian memiliki versi yang lebih baru, gunakan saja versi yang kalian miliki.
+Untuk menginstallnya, kalian cukup menyalin perintah berikut
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install </span>python3 python3-pip
+</code></pre></div>    </div>
+  </li>
+  <li>Jika sudah selesai, kalian bisa lanjut memasang API bot nya dengan mengetikkan perintah berikut
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>pip3 <span class="nb">install </span>pyTelegramBotAPI
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Hanya dua cara untuk menginstall API bot nya, maka sekarang kalian dapat membuat program pertama botnya.</p>
+
+<h4 id="membuat-program-bot-telegram">Membuat Program Bot Telegram</h4>
+
+<p>Untuk membuat programnya kalian bisa menggunakan Text Editor kesukaan kalian.</p>
+
+<p>Berikut caranya</p>
+
+<ol>
+  <li>Buat file bernama <code class="language-plaintext highlighter-rouge">main.py</code>. Lalu buka dengan teks editor</li>
+  <li>Import API tadi dengan menggunakan code berikut
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">telebot</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Membuat variable untuk memasukkan Token Bot yang tadi di buat dengan code berikut
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bot</span> <span class="o">=</span> <span class="n">telebot</span><span class="p">.</span><span class="n">TeleBot</span><span class="p">(</span><span class="s">"TOKEN BOT KALIAN"</span><span class="p">,</span> <span class="n">parse_mode</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span> <span class="c1"># Pada bagian parse_mode kalian bisa menggantinya dengan HTMl atau Markdown
+</span></code></pre></div>    </div>
+    <p>Kalian dapat mengubah parse_mode oleh HTML atau Markdown</p>
+  </li>
+  <li>Membuat jawaban perintah yang di kirim oleh pengguna, jadi misalnya pengguna mengirim pesan <code class="language-plaintext highlighter-rouge">/help</code> atau <code class="language-plaintext highlighter-rouge">/start</code> kepada bot, bot tersebut akan membalasnya secara otomatis dengan teks. Berikut code nya
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">bot</span><span class="p">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">commands</span><span class="o">=</span><span class="p">[</span><span class="s">'start'</span><span class="p">,</span> <span class="s">'help'</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">kirim_pesan</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+  <span class="n">bot</span><span class="p">.</span><span class="n">reply_to</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s">"Hallo, Saya bot Risnfd.xyz</span><span class="se">\n</span><span class="s">Apa kabar?"</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Untuk membuatnya bekerja, kita cukup tambahkan code berikut
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bot</span><span class="p">.</span><span class="n">polling</span><span class="p">()</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Maka program akan terlihat seperti ini
+```python
+import telebot</li>
+</ol>
+
+<p>bot = telebot.TeleBot(“TOKEN BOT KALIAN”, parse_mode=None)</p>
+
+<p>@bot.message_handler(commands=[‘start’, ‘help’])
+def kirim_pesan(message):
+  bot.reply_to(message, “Hallo, Saya bot Risnfd.xyz\nApa kabar?”)</p>
+
+<p>bot.polling()
+```</p>
+<ol>
+  <li>Coba jalankan file tersebut dengan <code class="language-plaintext highlighter-rouge">python3 main.py</code> dan jika berhasil, bot akan membalas pesan anda seperti berikut
+<img src="../images/6.png" alt="" />
+Jika sudah berhasil membuat bot seperti itu, kalian dapat mengubahnya sesuai keinginan kalian.</li>
+</ol>
+
+<p>Agar bot dapat berjalan 24jam tanpa error, kalian bisa mengunakan hosting/VPS, namun akan di bahas pada artikel selanjutnya.</p>
+:ET
